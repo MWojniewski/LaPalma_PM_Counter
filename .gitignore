@@ -1,0 +1,13 @@
+# vscode folders
+.vscode
+
+# unnecessary data
+data/dane*
+data/all_data
+
+# unnecessary maps/plots
+maps/old*
+plots/old*
+
+# unnecessary scripts
+scripts/old*
