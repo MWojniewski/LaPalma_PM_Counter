@@ -1,4 +1,4 @@
-,Timestamp,GPS_time,Latitude,Longitude,CO2_[ppm],PM1.0,PM2.5,PM4.0,PM10.0,Temp_[C],Hum_[%],VOC,NOx,Battery_[V],oled_on,CO2_sensirion_temp,CO2_sensirion_hum
+Index,Timestamp,GPS_time,Latitude,Longitude,CO2_[ppm],PM1.0,PM2.5,PM4.0,PM10.0,Temp_[C],Hum_[%],VOC,NOx,Battery_[V],oled_on,CO2_sensirion_temp,CO2_sensirion_hum
 0,2026-06-08 12:06:50,2026-06-08 11:06:51,28.676825,-17.773102,965,1.8,2.1,2.3,2.4,27.32,56.23,92.0,1.0,3.91,1,27.22,45.22
 1,2026-06-08 12:06:51,2026-06-08 11:06:53,28.6765,-17.773015,968,1.8,2.1,2.3,2.4,27.32,55.8,92.0,1.0,3.95,1,27.21,45.43
 2,2026-06-08 12:06:52,2026-06-08 11:06:54,28.676344,-17.77296,968,1.7,2.1,2.3,2.4,27.31,55.26,91.0,1.0,3.91,1,27.21,45.43
