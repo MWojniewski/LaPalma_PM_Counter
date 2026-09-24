@@ -1,0 +1,11 @@
+{
+    "Roque":{"name":"Roque de los Muchachos","lat":[28.753949, 28.766880],"lng":[-17.900224, -17.883688]},
+    "Mirador_roques":{"name":"Mirador de los Roques","lat":[28.696378, 28.701701],"lng":[-17.861129, -17.851692]},
+    "Playa":{"name":"La Playa de Nogales","lat":[28.756352, 28.760304],"lng":[-17.741637, -17.732167]},
+    "Mirador_Time":{"name":"Mirador El Time","lat":[28.663108, 28.664319],"lng":[-17.943226, -17.941877]},
+    "Salinas":{"name":"Las Salinas de Fuencaliente","lat":[28.453693, 28.455741],"lng":[-17.843771, -17.841563]},
+    "Puntallana":{"name":"Puntallana","lat":[28.738689, 28.739584],"lng":[-17.746260, -17.743175]},
+    "Santa_Cruz":{"name":"Santa Cruz de La Palma","lat":[28.652536, 28.687048],"lng":[-17.770331, -17.761643], "max_time":"2026-09-16 17:12:00"},
+    "Tazacorte":{"name":"Tazacorte","lat":[28.642311, 28.648731],"lng":[-17.946142, -17.943019]},
+    "Puntalarga":{"name":"Puntalarga","lat":[28.481439, 28.483302],"lng":[-17.868770, -17.867488]}
+}

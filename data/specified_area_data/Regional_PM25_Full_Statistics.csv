@@ -1,0 +1,10 @@
+Region_ID,Location_Name,Valid_Samples,PM2.5_Mean,PM2.5_StdDev,PM2.5_Min,PM2.5_Q1,PM2.5_Median,PM2.5_Q3,PM2.5_Max
+Roque,Roque de los Muchachos,5331,2.73,11.24,0.0,1.2,1.6,2.4,269.0
+Mirador_roques,Mirador de los Roques,2182,8.25,36.52,0.8,2.8,3.3,3.8,461.9
+Playa,La Playa de Nogales,2964,8.6,5.92,1.0,4.8,6.5,11.5,46.6
+Mirador_Time,Mirador El Time,3973,2.49,0.43,1.1,2.2,2.5,2.7,10.7
+Salinas,Las Salinas de Fuencaliente,4246,38.02,160.73,0.9,6.4,8.3,11.3,1692.2
+Puntallana,Puntallana,22129,4.37,2.39,0.1,3.8,4.2,4.7,79.4
+Santa_Cruz,Santa Cruz de La Palma,20159,4.45,7.89,0.2,2.1,3.6,4.4,318.9
+Tazacorte,Tazacorte,2189,54.96,146.66,3.7,5.0,6.0,10.4,1015.2
+Puntalarga,Puntalarga,4990,9.12,47.4,1.3,5.3,6.1,7.2,1205.3
