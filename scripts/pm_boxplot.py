@@ -7,7 +7,7 @@ df = pd.read_csv("data/specified_area_data/Regional_PM25_Full_Statistics.csv")
 # opcje
 TITLE_ON    = False
 TEXT_LABEL  = False
-SAVE_IMG    = False
+SAVE_IMG    = True
 EXTRA_LABELS= False
 HANDLE_MEAN = True
 
@@ -74,7 +74,7 @@ for i, row in df_plot.iterrows():
         }
     )
 
-fig, ax = plt.subplots(figsize=(8,4))
+fig, ax = plt.subplots(figsize=(8,3.3))
 
 bp = ax.bxp(
     box_stats,
@@ -90,7 +90,7 @@ bp = ax.bxp(
     ),
 )
 
-ax.set_ylim(0, Y_AXIS_MAX)
+ax.set_ylim(Y_AXIS_MIN, Y_AXIS_MAX)
 ax.set_xlim(0.5, 9.5)
 
 # Adding annotations
@@ -141,7 +141,7 @@ if TEXT_LABEL:
 plt.xticks(fontsize=FONTSIZE)
 plt.yticks(fontsize=FONTSIZE)
 
-plt.ylabel(r"PM 2.5 [µg/m$^3$]", fontsize=FONTSIZE)
+plt.ylabel(f"PM 2.5 [µg/m"+r"$^3$]", fontsize=FONTSIZE)
 # plt.xlabel("Lokalizacja pomiaru")
 if TITLE_ON: plt.title(
     "Wykres koncentracji PM 2.5 w zależności od miejsca na wyspie La Palma", fontsize=19
@@ -177,7 +177,7 @@ median_artist = bp["medians"][0]
 mean_artist = bp["means"][0]
 
 # Add legend using the extracted artists
-plt.legend([median_artist, mean_artist], ["Median", "Mean"],loc = 'upper left')
+plt.legend([median_artist, mean_artist], ["Mediana", "Średnia"],loc = 'upper left')
 
 plt.tight_layout()
 if SAVE_IMG: 
