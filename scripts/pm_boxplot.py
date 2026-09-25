@@ -90,7 +90,7 @@ bp = ax.bxp(
     ),
 )
 
-ax.set_ylim(0, Y_AXIS_MAX)
+ax.set_ylim(Y_AXIS_MIN, Y_AXIS_MAX)
 ax.set_xlim(0.5, 9.5)
 
 # Adding annotations
