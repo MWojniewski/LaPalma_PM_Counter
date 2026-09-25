@@ -11,3 +11,6 @@ plots/old*
 
 # unnecessary scripts
 scripts/old*
+
+# smieci Maca
+.DS_Store
